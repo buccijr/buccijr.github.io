@@ -54,13 +54,13 @@ const scrollToTutorials = () => {
             Transform your manufacturing operations with intelligent communication between processes and material handling. Eliminate waste, optimize flow, and boost efficiency.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-1 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-1 justify-center items-center mb-10">
             <Button 
             onMouseEnter={() => setIsHoveredd(true)}
              onMouseLeave={() => setIsHoveredd(false)}
               size="lg" 
               className="group bg-[hsl(var(--primary))] hover:bg-[hsl(var(--primary-glow))] text-[hsl(var(--primary-foreground))] shadow-industrial text-lg px-5 py-3 cursor-pointer
-              transition-all duration-300"
+              transition-all duration-300 mb-2"
               onClick={scrollToFeatures}
             >
               Discover Features
@@ -76,7 +76,7 @@ const scrollToTutorials = () => {
               size="lg"
               className=" border-[hsl(var(--primary-foreground)/0.4)] text-[hsl(var(--primary-foreground))] 
               
-              hover:bg-[hsl(var(--primary-foreground)/0.3)] text-lg px-8 py-3"
+              hover:bg-[hsl(var(--primary-foreground)/0.3)] text-lg px-8 py-3 mb-2"
             >
               Watch Demo
 

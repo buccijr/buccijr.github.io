@@ -120,11 +120,11 @@ const Pricing = () => {
               }`}
             >
               {plan.popular && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] px-4 py-1 rounded-full text-sm font-medium">
-                    Most Popular
-                  </span>
-                </div>
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+  <span className="whitespace-nowrap bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] px-4 py-1 rounded-full text-sm font-medium">
+    Most Popular
+  </span>
+</div>
               )}
 
               <CardHeader className="text-center pb-8">
