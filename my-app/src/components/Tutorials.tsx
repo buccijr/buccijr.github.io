@@ -7,7 +7,8 @@ const Tutorials = () => {
   const [currentTutorial, setCurrentTutorial] = useState(0);
 
   const tutorials = [
-'https://www.youtube.com/embed/wtMubi1by3o', 
+'https://www.youtube.com/embed/wtMubi1by3o',
+'https://www.youtube.com/embed/_r3NrGXN7Jk', 
 'https://www.youtube.com/embed/rCg-mEqhWkQ',
 
 
